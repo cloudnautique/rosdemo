@@ -1,0 +1,6 @@
+rancher:
+  ports:
+  - 80:8080/tcp
+  restart: always
+  labels:
+  image: rancher/server:v0.41.0
