@@ -1,0 +1,6 @@
+rancher:
+  labels:
+    io.rancher.os.after: docker
+  restart: always
+  image: rancher/agent:v0.8.2
+  command: ${RANCHER_REG_URL}
